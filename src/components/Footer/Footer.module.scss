@@ -1,0 +1,21 @@
+footer{
+  
+  margin-top: 100px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  &:nth-child(1){
+    max-width: 100px;
+    max-height: 30px;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  div{
+    display: flex;
+    gap: 20px;
+  }
+}
