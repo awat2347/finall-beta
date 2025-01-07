@@ -21,42 +21,42 @@ const RecentArticles = () => {
 
             <div className={s.box}>
               <div className={s.Popular}>
-             <Swiper
-  modules={[Navigation, Pagination]} // Подключаем модули
-  navigation // Включаем навигацию
-  pagination={{ clickable: true }} // Включаем пагинацию
-  spaceBetween={70}
-  slidesPerView={1}
->
-  <SwiperSlide className={s.ebatslider}>
-    <div className={s.text1}>
+                <Swiper
+                  modules={[Navigation, Pagination]} // Подключаем модули
+                  navigation // Включаем навигацию
+                  pagination={{ clickable: true }} // Включаем пагинацию
+                  spaceBetween={70}
+                  slidesPerView={1}
+                >
+                  <SwiperSlide className={s.ebatslider}>
+                    <div className={s.text1}>
 
-        <p>VR Games</p>
-        <h1>Entertainment Goes Virtual: The Rise of VR Gaming</h1>
-      
-    </div>
-  </SwiperSlide>
+                      <p>VR Games</p>
+                      <h1>Entertainment Goes Virtual: The Rise of VR Gaming</h1>
 
-  <SwiperSlide className={s.ebatslider}>
-    <div className={s.text1}>
+                    </div>
+                  </SwiperSlide>
 
-        <p>VR Games</p>
-        <h1>Entertainment Goes Virtual: The Rise of VR Gaming</h1>
-      
-    </div>
-  </SwiperSlide>
+                  <SwiperSlide className={s.ebatslider}>
+                    <div className={s.text1}>
 
-  <SwiperSlide className={s.ebatslider}>
-    <div className={s.text1}>
+                      <p>VR Games</p>
+                      <h1>Entertainment Goes Virtual: The Rise of VR Gaming</h1>
 
-        <p>VR Games</p>
-        <h1>Entertainment Goes Virtual: The Rise of VR Gaming</h1>
-      
-    </div>
-  </SwiperSlide>
+                    </div>
+                  </SwiperSlide>
+
+                  <SwiperSlide className={s.ebatslider}>
+                    <div className={s.text1}>
+
+                      <p>VR Games</p>
+                      <h1>Entertainment Goes Virtual: The Rise of VR Gaming</h1>
+
+                    </div>
+                  </SwiperSlide>
 
 
-</Swiper>;
+                </Swiper>;
               </div>
 
               <div className={s.Recent}>
