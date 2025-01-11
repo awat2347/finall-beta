@@ -1,4 +1,14 @@
+.wrapper{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+
 .text{
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -17,3 +27,66 @@
     }
 }
 
+.input{
+   input{
+    border-radius: 10px;
+   }
+    display: flex;
+
+    flex-direction: column;
+    gap: 20px;
+    .inp{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+        div{
+            display: flex;
+            gap: 20px;
+        }
+       
+        grid-template-columns: repeat(4,1fr);
+        input{
+            padding: 10px;
+            background-color: #25253299;
+            border: none;
+        }
+
+    }
+}
+
+.btn{
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input{
+       display: flex;
+       border: none;
+        background-color: #25253299;
+        padding: 5px 0px 40px 80px ;
+    }
+
+    button{
+        max-width: 188px;
+        padding: 6px;
+        background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        text-transform: uppercase;
+        text-align: center;
+        transition:  1s;
+      
+        &:hover {
+         
+          background: linear-gradient(20deg, #2574fc94 0%, #6b11cb9a 100%);
+        }
+        &:active{
+            scale: 1.1;
+        }
+        
+    }
+}

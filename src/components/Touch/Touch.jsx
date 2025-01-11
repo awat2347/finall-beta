@@ -14,15 +14,19 @@ const Touch = () => {
             </div>
 
             <div className={s.input}>
-            <div>
+            <div className={s.inp}>
+              <div>
                 <input placeholder='First Name' type="text" name="" id="" />
                 <input placeholder='Last Name' type="text" name="" id="" />
+                </div>
+                <div>
                 <input placeholder='Email' type="text" name="" id="" />
                 <input placeholder='Phone Number' type="number" name="" id="" />
+                </div>
             
                 
                 </div>
-                <div className="btn">
+                <div className={s.btn}>
             <input placeholder='Message' type="text" name="" id="" />
             <button>send message</button>
             </div>
