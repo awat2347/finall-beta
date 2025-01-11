@@ -1,0 +1,19 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 645px;
+    h3{
+        background: linear-gradient(0.04deg, #00eaff, #ff00cc); // Градиент
+        -webkit-background-clip: text; // Для клипирования фона текстом
+        -webkit-text-fill-color: transparent; // Прозрачный текст
+        text-fill-color: transparent; // Прозрачный текст для совместимости
+    }
+    h1{
+        color: white;
+    }
+    P{
+        color: #a8a8a8;
+    }
+}
+
